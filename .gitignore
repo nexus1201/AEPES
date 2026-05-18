@@ -1,0 +1,12 @@
+/vendor/
+
+.env
+/config/*.env
+
+node_modules/
+
+*.log
+*.tmp
+
+.DS_Store
+Thumbs.db
