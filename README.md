@@ -181,7 +181,7 @@ AEPES/
 │   └── diagrams/
 │
 ├── database/
-│   └── aepes.sql
+│   └── aepes-db.sql
 │
 ├── composer.json
 ├── composer.lock
@@ -223,13 +223,13 @@ composer install
 Open phpMyAdmin and create:
 
 ```sql
-aepes
+aepes-db
 ```
 
 Import:
 
 ```text
-database/aepes.sql
+database/aepes-db.sql
 ```
 
 ---
@@ -248,7 +248,7 @@ Configure:
 $host="localhost";
 $user="root";
 $password="";
-$database="aepes";
+$database="aepes-db";
 ```
 
 ---
